@@ -3,7 +3,7 @@
 1. Make sure you've rebuilt the docker container
   `docker build -f Dockerfile.`
 2. Make sure you're using the built container. I've added a REST endpoint to fetch available tax years and without this enpoint app won't work
-3. I you're using mostly old libs, but I wanted to have fun and have something interesting to discuss during tech interview. So I used the most cutting-edge front-end solutions here. 
+3. I know you're using mostly old libs, but I wanted to have fun and have something interesting to discuss during tech interview. So I used the most cutting-edge front-end solutions here. 
 
 I swear, I'll never insist on using all this stuff on the real projects just because it's new :)  
 

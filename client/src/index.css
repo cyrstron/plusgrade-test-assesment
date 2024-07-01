@@ -1,0 +1,7 @@
+@import '@radix-ui/themes/styles.css' layer(radix);
+
+body {
+    margin: 0;
+}
+
+@stylex stylesheet;

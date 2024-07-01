@@ -12,7 +12,9 @@ def tax_calculator_instructions():
 
 @app.route('/tax-calculator/tax-year')
 def default_brackets():
-    return redirect('/')
+    return jsonify({
+        'tax_years': controllers.get_tax_years()
+    })
 
 
 @app.route('/tax-calculator/tax-year/<tax_year>')
